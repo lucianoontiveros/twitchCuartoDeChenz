@@ -25,7 +25,7 @@ body {
 
 #navBarlista {
   color: rgba(5, 177, 96, 0.986);
-  background-image: linear-gradient(rgba(5, 5, 5, 0.682), rgba(3, 3, 3, 0.69)), url('../public/imagenes/1.png');
+  background-image: linear-gradient(rgba(5, 5, 5, 0.682), rgba(3, 3, 3, 0.69)), url('./src/imagenes/1.png');
   background-size: cover;
   background-position: center;
   height: 99vh;
@@ -140,14 +140,14 @@ body {
 
 /*DESARROLLO DE LAYOUT  */
 .containerLayout {
-  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('../public/imagenes/fondo.gif');
+  background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('./src/imagenes/fondo.gif');
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (min-width: 850px) {
   .containerLayout {
-    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('../public/imagenes/fondo.gif');
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('./src/imagenes/fondo.gif');
     background-size: cover;
     background-position: center;
     margin: 0;

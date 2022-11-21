@@ -39,7 +39,7 @@ const NavBar = () => {
                      <div className="redes">
                         <div className='cardContenedor1'>
                             <div className="card">
-                                <img src="../public/imagenes/instagram.jpg" className="card-img-top" alt="..."/>
+                                <img src="./src/imagenes/instagram.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <p className="card-text">Enterate de horarios y novedades sobre el canal. Tenemos un grupo de Forest para enviar codigos de plantación</p>
                                     <div className="d-grid gap-2">
@@ -48,7 +48,7 @@ const NavBar = () => {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src="../public/imagenes/youtube.jpg" className="card-img-top" alt="..."/>
+                                <img src="./src/imagenes/youtube.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <p className="card-text">Contenido adicional y sesiones de estudio para encontrarnos fuera de los directos</p>
                                     <div className="d-grid gap-2">
@@ -57,7 +57,7 @@ const NavBar = () => {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src="../public/imagenes/telegram.jpg" className="card-img-top" alt="..."/>
+                                <img src="./src/imagenes/telegram.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <p className="card-text">Podrás unirte a nuestro grupo de plantación. Nos enviamos codigos Forest incluso fuera de stream</p>
                                     <div className="d-grid gap-2">
@@ -68,7 +68,7 @@ const NavBar = () => {
                          </div>
                         <div className='cardContenedor2'>
                             <div className="card">
-                                <img src="../public/imagenes/twitch.jpg" className="card-img-top" alt="..."/>
+                                <img src="./src/imagenes/twitch.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <p className="card-text">Bienvenidxs a la experiencia de estudiar en compañía, a ser testigos de los logros de esta comunidad </p>
                                     <div className="d-grid gap-2">
@@ -77,7 +77,7 @@ const NavBar = () => {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src="../public/imagenes/discord.jpg" className="card-img-top" alt="..."/>
+                                <img src="./src/imagenes/discord.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <p className="card-text">Si quieres conocernos, vivir el día a día, lo mejor que puedes hacer es usar Discord. Te invitamos</p>
                                     <div className="d-grid gap-2">
@@ -86,7 +86,7 @@ const NavBar = () => {
                                 </div>
                             </div>
                             <div className="card">
-                                <img src="../public/imagenes/comandos.jpg" className="card-img-top" alt="..."/>
+                                <img src="./src/imagenes/comandos.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                     <p className="card-text">Todos los comandos del canal para que puedas interactuar con nosotrxs el chat de Twitch</p>
                                     <div className="d-grid gap-2">
