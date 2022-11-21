@@ -13,7 +13,7 @@ const Tarjetas = () => {
                 </div>
                 <div className="contenedorTarjetas container col 12 p-3">
                     <div className="card mb-1">
-                        <img src="src/imagenes/twitch.jpg" className="card-img-top" alt="..."></img>
+                        <img src="./imagenes/twitch.jpg" className="card-img-top" alt="..."></img>
                         <div className="card-body d-grid gap-2">
                             <a className="btn btn-dark" type="a">TWITCH</a>
                         </div>
