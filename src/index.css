@@ -160,6 +160,16 @@ body {
 
 /* DESAROLLO DE TARJETAS */
 
+.contenedorTarjetas {
+  width: 100%;
+}
+
+
+.contenedor .video {
+  background-color: black;
+  color: rgba(19, 237, 135, 0.986);
+}
+
 @media screen and (min-width: 850px) {
   .contenedorTarjetas {
     display: flex;
@@ -182,11 +192,14 @@ body {
     max-height: 18rem;
   }
 
-  .container .video {
+  .contenedor .video {
+    background-color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     border-radius: 1em;
+    color: rgba(19, 237, 135, 0.986);
   }
 
 }

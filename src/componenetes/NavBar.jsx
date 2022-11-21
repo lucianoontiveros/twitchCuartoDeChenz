@@ -81,7 +81,7 @@ const NavBar = () => {
                                 <div className="card-body">
                                     <p className="card-text">Si quieres conocernos, vivir el día a día, lo mejor que puedes hacer es usar Discord. Te invitamos</p>
                                     <div className="d-grid gap-2">
-                                         <a className="btn btn-dark" type="a">DISCORD</a>
+                                        <a className="btn btn-dark" type="a">DISCORD</a>
                                     </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@ const NavBar = () => {
                                 <div className="card-body">
                                     <p className="card-text">Todos los comandos del canal para que puedas interactuar con nosotrxs el chat de Twitch</p>
                                     <div className="d-grid gap-2">
-                                         <a className="btn btn-dark" type="a">COMANDOS</a>
+                                        <a className="btn btn-dark" type="a">COMANDOS</a>
                                     </div>
                                 </div>
                             </div>
