@@ -50,7 +50,7 @@ const NavBar = () => {
                             <div className="card">
                                 <img src="../public/imagenes/youtube.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <p className="card-text">Contenido adicional y sesiones de estudio por si no nos encuentras en directo</p>
+                                    <p className="card-text">Contenido adicional y sesiones de estudio para encontrarnos fuera de los directos</p>
                                     <div className="d-grid gap-2">
                                          <a className="btn btn-dark" type="a">YOUTUBE</a>
                                     </div>
@@ -88,7 +88,7 @@ const NavBar = () => {
                             <div className="card">
                                 <img src="../public/imagenes/comandos.jpg" className="card-img-top" alt="..."/>
                                 <div className="card-body">
-                                    <p className="card-text">Todos los comandos del canal para que puedas interactuar con nosotrxs en los directos</p>
+                                    <p className="card-text">Todos los comandos del canal para que puedas interactuar con nosotrxs el chat de Twitch</p>
                                     <div className="d-grid gap-2">
                                          <a className="btn btn-dark" type="a">COMANDOS</a>
                                     </div>

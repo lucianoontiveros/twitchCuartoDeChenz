@@ -70,6 +70,7 @@ body {
 
 @media screen and (min-width: 850px) {
   .contenedorNav {
+    background-color: black;
     overflow: hidden;
     margin-right: 10px;
   }
@@ -142,8 +143,6 @@ body {
   background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5)), url('../public/imagenes/fondo.gif');
   background-size: cover;
   background-position: center;
-  margin: 0;
-  height: 105vh;
 }
 
 @media screen and (min-width: 850px) {
@@ -152,6 +151,7 @@ body {
     background-size: cover;
     background-position: center;
     margin: 0;
+    height: 100vh;
     overflow: hidden;
   }
   
@@ -162,12 +162,12 @@ body {
 
 @media screen and (min-width: 850px) {
   .contenedorTarjetas {
-    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    padding: 1em 0em 1em 0em;
   }
   .contenedorTarjetas .card img {
     width: 18rem;
@@ -182,5 +182,64 @@ body {
     max-height: 18rem;
   }
 
+  .container .video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+  }
+
 }
 
+/* DESAROLLO DEL FOOTER */
+
+#footer .card-body h5{
+  color: rgba(19, 235, 134, 0.986); 
+}
+
+#footer .card-body p {
+  color: rgba(204, 208, 206, 0.986); 
+}
+
+.btn-green svg {
+  color: white;
+}
+
+@media screen and (min-width: 850px) {
+  #footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    height: 20vh;
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(5, 5, 5, 0.5), rgba(3, 3, 3, 0.5));
+    border-color: rgba(19, 237, 135, 0.986);
+    border-radius: 1em;
+  }
+  
+  #footer .card-body h5{
+    color: rgba(19, 235, 134, 0.986); ;
+  }
+
+  #footer .card-body p {
+    color: rgba(204, 208, 206, 0.986); ;
+  }
+
+  .btn-green {
+    background-color: rgba(19, 235, 134, 0.986); 
+    margin: 0px 10px 10px 5px;
+  }
+  .btn-green:hover {
+    background-color: white; 
+  }
+
+  .btn-green svg {
+    color: black;
+  }
+
+  .btn-green svg:hover {
+    
+    color: rgba(6, 7, 7, 0.986); 
+  }
+
+}
